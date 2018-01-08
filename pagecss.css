@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+body
+{
+	font-family: 'Concert One', cursive;
+}
+#na
+{
+	border-radius: 20px;
+	
+}
+
+
+
+.but
+{
+	margin-right: 10px;
+}
+.change
+{
+	height:500px;
+	width:100%;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: orange;
+	
+}
+
+.go:hover
+{
+	background:#070707;
+
+	
+}
+/* unvisited link */
+a:link {
+    color:black;
+}
+
+/* visited link */
+a:visited {
+    color:black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
+.ll
+{
+	height:250px;
+	width:250px;
+	border-radius: 50%;
+	display:inline-block;
+	width:25%;
+	height:25%;
+	padding:60px 20px 0 20px;
+	position:relative;
+	margin-bottom: 80px;
+	margin-right: 30px;
+	margin-left: 30px;
+	outline:none !important;
+
+
+
+}
+
+
+
+
+.padd
+{
+	padding-left: 10px;
+
+}
+.k
+{
+	position: absolute;
+
+}
+.modal_locate
+{
+	height: 850px;
+}
+.round
+{
+	border-radius: 10px;
+	
+}
+
+.do
+{
+	cursor: pointer;
+}
+
+
+.down:focus
+{
+outline: none !important;
+border-color: white;
+border:0px;
+}
+
+.manage, .m
+{
+	width:430px;
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	outline: none !important;
+}
+.manage:hover, .m:hover
+{
+	border-color:#cc1c33; 
+}
+.animate
+{
+	height:900px;
+	margin-left: 450px;
+	margin-right: 450px;
+	border-color: white;
+	border:0px;
+}
+
+.foz
+{
+	margin-left: 300px;margin-top:30px;
+	margin-right: 200px;
+
+}
+.sty
+{
+	height:582px;
+	
+}
+.nyasty
+{
+	height:576px;
+}
+/*
+#con1
+{
+	
+	position:relative;
+	color:orange;
+
+	
+}*/
+header
+{
+	position: relative;
+}
+
+@keyframes anime{
+	0%  {color:#ccbfbf;}
+	10% {color:#f90202;}
+	20% {color:#068424;}
+	30% {color:#bc1ebf;}
+	40% {color:#efd910;}
+	50% {color:#d67433;}
+	60% {color:#43ba14;}
+	70% {color:#aa42a9;}
+	80% {color:#ef1b10;}
+	90% {color:#ff0220;}
+	100% {color:#ccbfbf;}
+}
+/*#con3
+{
+	position:absolute;
+    font-size: 100px;
+    margin-left: -290px;
+   font-family: 'Indie Flower', cursive;	height:100px;
+	width:1000px;
+  left: 450px;
+  top: 225px;
+	 animation-name: anime;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+
+}
+*/
+
+}
+/*#con2
+{
+	
+	
+	position:absolute;
+	left: 0;
+ 	top: 0;
+}*/
+
+
+.arr:hover
+{
+	border-color:#cc1c33;
+	border-width: 2px;
+
+}
+#lk
+{
+	resize: none;
+	border-radius: 15px;
+	outline: none !important;
+	border-left: 0px;
+	border-top:0px;
+}
+#lk:hover
+{
+	border-width: 2px;
+	border-color:#cc1c33;
+	border-radius: 15px;
+
+}
+#maps
+{
+	height:500px;
+	width:100%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+

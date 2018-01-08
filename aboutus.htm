@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>healthcare world</title>
+	<link rel="shortcut icon" href="heart-.ico"/>
+    <link rel="stylesheet" href="pagecss.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+</head>
+<body>
+		<h3 align="center" style="background-color: #00acfe;padding-bottom: 40px;padding-top: 40px;"><b>Health-o-Pedia</b></h3>
+
+<header style="margin-top:-10px">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<div class="go">
+		  <a class="navbar-brand" href="page.php">home</a>
+		  </div>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active go">
+		        <a class="nav-link" href="#">about us <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item active go">
+		        <a class="nav-link" href="team.htm">team</a>
+		      </li>
+		      <li class="nav-item active go">
+		        <a class="nav-link" href="contact.php">conatct us</a>
+		      </li>
+		       <li class="nav-item active go">
+		        <a class="nav-link" href="lrc.php">learn</a>
+		      </li>
+		    </ul>
+		  <!--   <form class="form-inline my-2 my-lg-0">
+			  <button class="btn btn-outline-danger my-2 my-sm-0  but"  data-toggle="modal" data-target="#modal" type="button">Signup</button>		      
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="button" data-toggle="modal" data-target="#mmodal" >Login</button>
+		    </form> -->
+		  </div>
+		</nav>
+
+
+
+
+<!-- Modal -->
+<div id="mmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="border-radius: 30px;">
+      <div class="modal-header">
+        <h4 class="modal-title" style="padding-left: 180px">Log In</h4>
+      </div>
+      
+
+
+      	 <form name="signin" id="form2" class="modal-content"  action="page.php" method="post"> 
+      	 	<div class="container">
+      	 		
+       <input type="text" class="manage"  placeholder="Enter Full Name" name="logname" required>
+	<br><br>
+ <input id="pas" type="password" class="manage"  placeholder="Enter Password" name="logpass" required>
+	<br><br>
+     
+     
+        
+     <button type="submit" name="test" class="btn btn-outline-success">login</button><br/>
+    </div>
+</form>
+  </div>
+</div>
+ </div>
+		
+<div style="padding-top: 30px;padding-left:20px;padding-right:20px;"><p><div style="float: left;font-size: 45px;line-height: 1;font-weight: bold;margin-right: 9px;">We</div><br>are a groupt of students of <a href="jiit.ac.in"><b>jaypee institute of information technology</b></a>, who are continuously challenging themselves for making this project work</p>
+<p><b>What We Do for Our Users:</b><br>
+Health-o-Pedia provides valuable health information, tools for managing your health, and support to those who seek information. Through  medical content and insights from experts, we answer: how it happened, what it feels like, why it matters and what you can do about it.
+Health-o-Pedia is produced to deliver accurate, trusted, up-to-date health and medical information, along with expert consultancy,  for consumers.we also provide a platform to come and get registered for apointment with the best team of doctors We focus on problem-solving content to help you make decisions during complicated, stressful times. 
+We are committed to improving our site. We will continue to publish even more content, communities, and services to help make your life better, to help you find your way when faced with healthcare decisions, and to help you feel better about your health and that of your family. 
+
+About Your Privacy
+We know that health is a very personal, private subject, and we maintain a strict privacy policy.
+
+Contact Information: Contact us via email @ <a href="#">aman.parmar17@gmail.com</a>.
+</p>
+
+</div>
+
+<!-- Modal -->
+  <div class="modal fade modal_locate" id="modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="border-radius: 30px;height:600px;">
+        <div class="modal-header">
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <h4 class="modal-title" style="padding-left: 180px;">Sign Up</h4>
+        </div>
+       
+
+           <form name="signin" id="form2" class="modal-content animate"  action="action_page.php" method="post"> 
+    <div class="container">
+
+      <input type="text" class="manage"  placeholder="Enter Full Name" name="name" required>
+	<br><br>
+     
+      <input type="email" class="manage"  placeholder="Enter Email" name="email" required>
+	<br><br>
+
+      <input id="pass" type="password" class="manage"  placeholder="Enter Password" name="pas" required>
+	<br><br>
+      <input id="rpass" type="password" class="manage"  placeholder="Repeat Password" name="rpas" required >
+	  	<br><br>
+	  	<label ><b>date of birth</b></label>
+	  <input id="dateofbirth" type="Date" class="manage"  placeholder="date of birth" name="dob" onmouseover="return validatePass()" required>
+
+
+
+
+
+	  	<br><br>
+
+
+
+
+	  <label><b>Gender</b></label><br>
+	  <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other <br><br>
+      <input type="checkbox" checked="checked"> Remember me
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+     
+       
+        <button type="submit" class="signupbtn btn-success round w-100" >Sign Up</button>
+     </div>
+   	
+  </form>
+        		
+        
+        </div>
+      </div>
+      
+    </div>
+ 
+<p style="background-color:#8e8585;color:black;margin-bottom: -10px;margin-top: 170px;" align="center"><img src="copy.png" height="18px" width="18px" style="margin-right: 5px;"> jaypee institute of information technology</p>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="pagejs.js"></script>
+	<script>
+	// var e=document.querySelector("#myModal") 
+	// 	e.on('hide.bs.modal', '#form2', function() {
+	// 		this.reset();/* Act on the event */
+	// 	});
+</script>
+
+</body>
+</html>
